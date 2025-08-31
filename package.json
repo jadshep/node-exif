@@ -21,7 +21,7 @@
         "url": "http://github.com/jadshep/node-exif.git"
     },
     "scripts": {
-        "test": "node_modules/.bin/mocha --reporter spec test/*-test.js",
+        "test": "mocha --reporter spec test/*-test.js",
         "prettier": "prettier --write '**/*.{js,json,md}'"
     },
     "dependencies": {
