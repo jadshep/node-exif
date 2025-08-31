@@ -1,21 +1,33 @@
 {
-  "name" : "exif",
-  "version" : "0.6.0",
-  "description" : "A node.js library to extract Exif metadata from images.",
-  "author" : [ "Daniel Leinich <leinich@gmx.net>", "Olivier Oeuillot <olivier.oeuillot@gmail.com>" ],
-  "keywords" : ["exif", "image", "jpeg", "jpg", "makernotes", "gps"],
-  "main" : "./lib/exif",
-  "repository" : {
-    "type" : "git",
-    "url" : "http://github.com/gomfunkel/node-exif.git"
-  },
-  "dependencies": {
-    "debug": "^2.2"
-  },
-  "devDependencies": {
-    "mocha": "^2.4"
-  },
-  "scripts": {
-    "test": "node_modules/.bin/mocha --reporter spec test/*-test.js"
-  }
+    "name": "exif",
+    "version": "0.6.0",
+    "description": "A node.js library to extract Exif metadata from images.",
+    "author": "Jadeon Sheppard <jadeon@example.com>",
+    "contributors": [
+        "Daniel Leinich <leinich@gmx.net>",
+        "Olivier Oeuillot <olivier.oeuillot@gmail.com>"
+    ],
+    "keywords": [
+        "exif",
+        "image",
+        "jpeg",
+        "jpg",
+        "makernotes",
+        "gps"
+    ],
+    "main": "./lib/exif",
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/jadshep/node-exif.git"
+    },
+    "scripts": {
+        "test": "node_modules/.bin/mocha --reporter spec test/*-test.js",
+        "prettier": "prettier --write '**/*.{js,json,md}'"
+    },
+    "dependencies": {
+        "debug": "^2.2"
+    },
+    "devDependencies": {
+        "mocha": "^2.4"
+    }
 }
